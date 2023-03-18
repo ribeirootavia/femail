@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5deb3;
+  }
+  
+  
+  form {
+    margin: 20px auto;
+    width: 400px;
+    padding: 20px;
+    background-color: #d19672;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+ 
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"],
+  textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  button[name="btnEnviar"] {
+    background-color: #8b4c39;
+    color: #ccc;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[name="btnEnviar"]:hover {
+    background-color: #703c2b;
+  }
+  
